@@ -48,6 +48,7 @@ public class StudentManagementSystem{
     for(Student s : students){
       total+=s.getMarks();
     }
+	// Calculate average marks
     double average = total/students.size();
     System.out.println("Average mark = " + average);
   }
